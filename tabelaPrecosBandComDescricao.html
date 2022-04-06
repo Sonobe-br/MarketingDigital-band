@@ -12,14 +12,30 @@
     
     <style>
         
+        #top-header {
+
+            padding: 10px;
+            background-color: #ffff;
+        }
+
+        body {
+                       
+        /*     background: transparent url(./jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg); */
+             
+        }
+
         #logo-band {
             
-            width: 15%;
+            position: relative;
+            left: 25%;
+            width: 22%;
             
         }
 
         #titulo {
 
+            position: relative;
+            left: 25%;
             font-family:sans-serif;
             font-size: 22px;
             text-align:left;
@@ -39,18 +55,25 @@
             padding: .7px;
             margin: 0;
             text-align: center;
-            border-radius: 4px;
-            
+            border-radius: 4px;         
             
         }
         
         table {
             
+            position:relative;
+            left: 25%;
             width: 58%;
             margin-bottom: .5em;
             table-layout: fixed;
             text-align: center;
             border-radius: 5px;
+            
+        }
+
+        @media screen {
+            
+
             
         }
 
@@ -61,6 +84,7 @@
         
         .cls1 {
 
+            height: 40px;
             width: 7%;
         }
 
@@ -72,7 +96,7 @@
         
         .cls3 {
             
-            width: 7%;
+            width: 7%; 
 
         }
 
@@ -81,6 +105,7 @@
 
     <body> 
 
+        <div id="top-header"></div>
         <div class="container">
             <img id="logo-band" src="./Logo_Band/LOGO_BANDEIRANTES-1.jpg">
             
@@ -90,9 +115,9 @@
             <table class="cls" border="1">
             
                <!-- Columns -->
-                <tr>
+                <tr align="center"  bgcolor="#f3bcc0" >
                     <th class="cls1">Código</th>
-                    <th class="cls2">Descrição</th>
+                    <th class="cls2" >Descrição</th>
                     <th class="cls3">Valor</th>
                 </tr>    
 
@@ -310,10 +335,10 @@
                 <tr><td>6101</td>	<td>Pote Mix Dog 1.0L</td>	                                    <td> R$ 5,13 </td></tr>
                 <tr><td>5604</td>	<td>Pote Dog Love 3.6L</td>	                                    <td> R$ 7,13 </td></tr>
                 <tr><td>5602</td>	<td>Pote Dog Love 1.7L</td>	                                    <td> R$ 5,07 </td></tr>
-                <tr><td>0401.</td>	<td>Dog Rosa 3.6L</td>	                                        <td> R$ 7,13 </td></tr>
-                <tr><td>0201.</td>	<td>Dog Rosa 1.7L</td>	                                        <td> R$ 5,07 </td></tr>
-                <tr><td>0400.</td>	<td>Pote Dog Azul 3.6L</td>	                                    <td> R$ 7,13 </td></tr>
-                <tr><td>0200.</td>	<td>Pote Dog Azul 1.7L</td>	                                    <td> R$ 5,07 </td></tr>
+                <tr><td>0401</td>	<td>Dog Rosa 3.6L</td>	                                        <td> R$ 7,13 </td></tr>
+                <tr><td>0201</td>	<td>Dog Rosa 1.7L</td>	                                        <td> R$ 5,07 </td></tr>
+                <tr><td>0400</td>	<td>Pote Dog Azul 3.6L</td>	                                    <td> R$ 7,13 </td></tr>
+                <tr><td>0200</td>	<td>Pote Dog Azul 1.7L</td>	                                    <td> R$ 5,07 </td></tr>
                 <tr><td>2398</td>	<td>Pote Mix Cat 1.5L</td>	                                    <td> R$ 6,54 </td></tr>
                 <tr><td>2330</td>	<td>Pote Mix Cat 2.0L</td>	                                    <td> R$ 8,88 </td></tr>
                 <tr><td>2301</td>	<td>Pote Mix Cat 1.0L </td>	                                    <td> R$ 5,13 </td></tr>
